@@ -21,6 +21,12 @@
 
 - size is dynamic and can be changed in runtime.
 
+### Types of linked lists
+
+- Singly Linked Lists: One node contains only one pointer to the next node.
+- Doubly Linked Lists: One node contains a pointer to the next node and a pointer to the previous node.
+- Circular Linked Lists: The final node in the list points back to another node in the list, creating a loop.
+
 Source
 https://www.programiz.com/dsa/linked-list
 https://javascript.plainenglish.io/cycle-detection-in-javascrip-5173792a1ded
