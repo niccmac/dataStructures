@@ -50,5 +50,6 @@ let list = new LinkedList(node1);
 
 console.log(list.head.next.data);
 console.log(list.size());
-list.clear();
-console.log(list.size());
+// list.clear();
+// console.log(list.size());
+console.log(list.getLast());
