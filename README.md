@@ -2,6 +2,8 @@
 
 ## Linked Lists ...
 
+![Linked List](https://raw.githubusercontent.com/niccmac/dataStructures/main/public/img/linked-list-concept.webp)
+
 - is a linear data structure.
 - each node stores the data and the address of the next node.
 - elements are linked using pointers .
