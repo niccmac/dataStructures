@@ -27,4 +27,9 @@
 - Doubly Linked Lists: One node contains a pointer to the next node and a pointer to the previous node.
 - Circular Linked Lists: The final node in the list points back to another node in the list, creating a loop.
 
-Source +<https://www.programiz.com/dsa/linked-list> +<https://javascript.plainenglish.io/cycle-detection-in-javascrip-5173792a1ded> +<https://www.geeksforgeeks.org/data-structures/linked-list/> +<https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/>
+Source
+
+- <https://www.programiz.com/dsa/linked-list>
+- <https://javascript.plainenglish.io/cycle-detection-in-javascrip-5173792a1ded>
+- <https://www.geeksforgeeks.org/data-structures/linked-list/>
+- <https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/>
