@@ -21,6 +21,21 @@ class LinkedList {
     }
     return count;
   }
+  // Makes head equal null, no start means no list
+  clear() {
+    this.head = null;
+  }
+
+  // returns final node of list
+  getLast() {
+    let lastNode = this.head;
+    if (lastNode) {
+      while (lastNode.next) {
+        lastNode = lastNode.next;
+      }
+    }
+    return lastNode;
+  }
 }
 
 // Create nodes
@@ -34,4 +49,6 @@ node1.next = node2;
 let list = new LinkedList(node1);
 
 console.log(list.head.next.data);
+console.log(list.size());
+list.clear();
 console.log(list.size());
