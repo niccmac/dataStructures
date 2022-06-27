@@ -33,3 +33,4 @@ Source
 - <https://javascript.plainenglish.io/cycle-detection-in-javascrip-5173792a1ded>
 - <https://www.geeksforgeeks.org/data-structures/linked-list/>
 - <https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/>
+- <https://www.geeksforgeeks.org/javascript-program-for-deleting-a-linked-list-node-at-a-given-position/?ref=rp>
