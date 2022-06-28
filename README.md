@@ -31,20 +31,22 @@
 
 ![Stack eg.](https://raw.githubusercontent.com/niccmac/dataStructures/main/public/img/st73hnavf3vbeitow7ln.webp)
 
-- is an elementary data structure.
+- is an elementary linear data structure.
 - last item in is the first item out, or first in last out.
 - data is stored in a particular index.
 - used for
 
 ### Disadvantages...
 
-- to add, remove existing elements in a linked list items have to be shifted - this is a costly activity.
-- to find data nodes are accessed sequentially starting from the first node, this process can be slow.
-- more memory than arrays because of the storage of the pointers.
+- no random access of elements.
+- not easily searchable.
 
 ### Advantages...
 
-- size is dynamic and can be changed in runtime.
+- easy to learn.
+- optimises queues.
+- flexible, can handle many data types.
+- controls how memory is allocated.
 
 ### Types of stacks
 
