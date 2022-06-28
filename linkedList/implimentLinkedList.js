@@ -65,6 +65,10 @@ class LinkedList {
   getFirst() {
     return this.head;
   }
+
+  printList() {
+    console.log(this);
+  }
 }
 // Create nodes
 let node1 = new ListNode(2);
@@ -84,5 +88,6 @@ let list = new LinkedList(node1);
 console.log(list.size());
 list.delNode(2);
 console.log(list.size());
+list.printList();
 // console.log(list.getLast());
 // console.log(list.getFirst());
