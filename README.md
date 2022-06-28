@@ -38,7 +38,8 @@
 ### Disadvantages...
 
 - to add, remove existing elements in a linked list items have to be shifted - this is a costly activity.
-- \*\*\* DONT UNDERSTAND YET - The size of the arrays is fixed: So we must know the upper limit on the number of elements in advance. Also, generally, the allocated memory is equal to the upper limit irrespective of the usage.
+- The size of the arrays is fixed: the allocated memory is equal to the upper limit irrespective of the usage.
+- ![Stack Memory](https://github.com/niccmac/dataStructures/blob/main/public/img/arraymemory.drawio.png)
 - to find data nodes are accessed sequentially starting from the first node, this process can be slow.
 - more memory than arrays because of the storage of the pointers.
 
