@@ -61,3 +61,4 @@ Source
 - <https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/>
 - <https://www.geeksforgeeks.org/javascript-program-for-deleting-a-linked-list-node-at-a-given-position/?ref=rp>
 - <https://medium.com/@_jmoller/javascript-data-structures-stacks-and-queues-ea877d72a5f9>
+- <https://www.javascripttutorial.net/javascript-queue/>
