@@ -19,7 +19,7 @@
 ### Advantages...
 
 - size is dynamic and can be changed in runtime. Unlike an array, which no matter the size will take up a preset amount of memory.
-  ![memory usage]()
+  ![memory usage](https://github.com/niccmac/dataStructures/blob/main/public/img/Untitled%20Diagram.drawio.png)
 
 ### Types of linked lists
 
