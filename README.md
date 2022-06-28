@@ -18,7 +18,7 @@
 
 ### Advantages...
 
-- size is dynamic and can be changed in runtime. Unlike an array, which no matter the size will take up a preset amount of memory.
+- size is dynamic and can be changed in runtime. Unlike an array, which no matter the size will take up a preset amount of memory. Using pointers linked lists split up the data into managable packets.
   ![memory usage](https://github.com/niccmac/dataStructures/blob/main/public/img/Untitled%20Diagram.drawio.png)
 
 ### Types of linked lists
@@ -29,11 +29,9 @@
 
 ## Stack
 
-- is a linear data structure that uses series of connected nodes.
-- data is not stored in a particular memory location or index, each node stores the data and the address of the next node.
-- elements are linked using these pointers.
-- the first node is known as the head.
-- the final node is identified as its node pointer data will be null.
+- is an elementary data structure.
+- last item in is the first item out.
+- data is stored in a particular index.
 
 ### Disadvantages...
 
