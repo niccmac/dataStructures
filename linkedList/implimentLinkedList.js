@@ -69,6 +69,12 @@ class LinkedList {
   printList() {
     console.log(this);
   }
+
+  addNode(name, data) {
+    name = new ListNode(data);
+    console.log(name);
+    list.getLast().next = name;
+  }
 }
 // Create nodes
 let node1 = new ListNode(2);
@@ -85,9 +91,11 @@ node3.next = node4;
 let list = new LinkedList(node1);
 
 // console.log(list.head.next.data);
-console.log(list.size());
-list.delNode(2);
-console.log(list.size());
-list.printList();
-// console.log(list.getLast());
+// console.log(list.size());
+// list.delNode(2);
+// console.log(list.size());
 // console.log(list.getFirst());
+list.addNode("node5", 21);
+// list.printList();
+
+console.log(list.getLast());
