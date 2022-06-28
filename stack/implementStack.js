@@ -23,7 +23,15 @@ class Queue {
     return this.elements[this.head];
   }
   // check length of queue
-  get length() {
+  length() {
     return this.tail - this.head;
   }
 }
+
+const line = new Queue();
+
+for (let i = 0; i < 7; i++) {
+  line.enqueue(i);
+}
+console.log(line.peek());
+console.log(line.length());
