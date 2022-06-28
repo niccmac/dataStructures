@@ -32,14 +32,13 @@
 ![Stack eg.](https://raw.githubusercontent.com/niccmac/dataStructures/main/public/img/st73hnavf3vbeitow7ln.webp)
 
 - is an elementary data structure.
-- last item in is the first item out.
+- last item in is the first item out, or first in last out.
 - data is stored in a particular index.
+- used for
 
 ### Disadvantages...
 
 - to add, remove existing elements in a linked list items have to be shifted - this is a costly activity.
-- The size of the arrays is fixed: the allocated memory is equal to the upper limit irrespective of the usage.
-- ![Stack Memory](https://github.com/niccmac/dataStructures/blob/main/public/img/arraymemory.drawio.png)
 - to find data nodes are accessed sequentially starting from the first node, this process can be slow.
 - more memory than arrays because of the storage of the pointers.
 
@@ -49,9 +48,10 @@
 
 ### Types of stacks
 
-- Singly Linked Lists: One node contains only one pointer to the next node.
-- Doubly Linked Lists: One node contains a pointer to the next node and a pointer to the previous node.
-- Circular Linked Lists: The final node in the list points back to another node in the list, creating a loop.
+- Array.
+- Object.
+- memory/undo - Last In First Out.
+- queue - First In First Out.
 
 Source
 
@@ -60,3 +60,4 @@ Source
 - <https://www.geeksforgeeks.org/data-structures/linked-list/>
 - <https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/>
 - <https://www.geeksforgeeks.org/javascript-program-for-deleting-a-linked-list-node-at-a-given-position/?ref=rp>
+- <https://medium.com/@_jmoller/javascript-data-structures-stacks-and-queues-ea877d72a5f9>
