@@ -11,6 +11,30 @@ class LinkedList {
   constructor(head = null) {
     this.head = head;
   }
+  delNode(position) {
+    // no list return
+    if (this.head === null) {
+      return;
+    }
+    let temp = this.head;
+
+    // if first node in list make next node head
+    if (position === 0) {
+      this.head = this.next;
+      return;
+    }
+
+    // Find node before node to be deleted
+    for (let i = 0; temp !== 0 && i < position - 1; i++) {
+      temp = temp.next;
+    }
+    if (temp === null || temp.next === null) return;
+    let next = temp.next.next;
+
+    // Unlink the deleted node from list
+    temp.next = next;
+  }
+
   // Size of linked list
   size() {
     let count = 0;
@@ -36,12 +60,12 @@ class LinkedList {
     }
     return lastNode;
   }
+
   // returns first item in list
   getFirst() {
     return this.head;
   }
 }
-
 // Create nodes
 let node1 = new ListNode(2);
 let node2 = new ListNode(5);
@@ -56,34 +80,9 @@ node3.next = node4;
 // Set node1 as head
 let list = new LinkedList(node1);
 
-// Delete nodes
-const delNode = (position, list) => {
-  // no list return
-  if (list.head === null) {
-    return;
-  }
-  let temp = list.head;
-
-  // if first node in list make next node head
-  if (position === 0) {
-    list.head = list.next;
-    return;
-  }
-
-  // Find node before node to be deleted
-  for (let i = 0; temp !== 0 && i < position - 1; i++) {
-    temp = temp.next;
-  }
-  if (temp === null || temp.next === null) return;
-  let next = temp.next.next;
-
-  // Unlink the deleted node from list
-  temp.next = next;
-};
-
 // console.log(list.head.next.data);
 console.log(list.size());
-delNode(2, list);
+list.delNode(2);
 console.log(list.size());
 // console.log(list.getLast());
 // console.log(list.getFirst());
