@@ -29,6 +29,8 @@
 
 ## Stack
 
+![Stack eg.](https://raw.githubusercontent.com/niccmac/dataStructures/main/public/img/st73hnavf3vbeitow7ln.webp)
+
 - is an elementary data structure.
 - last item in is the first item out.
 - data is stored in a particular index.
