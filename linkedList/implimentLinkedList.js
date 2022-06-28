@@ -95,7 +95,6 @@ let list = new LinkedList(node1);
 // list.delNode(2);
 // console.log(list.size());
 // console.log(list.getFirst());
-list.addNode("node5", 21);
+// list.addNode("node5", 21);
 // list.printList();
-
-console.log(list.getLast());
+// console.log(list.getLast());
