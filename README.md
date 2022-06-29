@@ -55,6 +55,34 @@
 - memory/undo - Last In First Out.
 - queue - First In First Out.
 
+## Binary Tree
+
+![Binary Tree eg.](https://raw.githubusercontent.com/niccmac/dataStructures/main/public/img/st73hnavf3vbeitow7ln.webp)
+
+- is an elementary linear data structure.
+- last item in is the first item out, or first in last out.
+- data is stored in a particular index.
+- used for
+
+### Disadvantages...
+
+- no random access of elements.
+- not easily searchable.
+
+### Advantages...
+
+- easy to learn.
+- optimises queues.
+- flexible, can handle many data types.
+- controls how memory is allocated.
+
+### Types of stacks
+
+- Array.
+- Object.
+- memory/undo - Last In First Out.
+- queue - First In First Out.
+
 Source
 
 - <https://www.programiz.com/dsa/linked-list>
