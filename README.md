@@ -64,3 +64,4 @@ Source
 - <https://www.geeksforgeeks.org/javascript-program-for-deleting-a-linked-list-node-at-a-given-position/?ref=rp>
 - <https://medium.com/@_jmoller/javascript-data-structures-stacks-and-queues-ea877d72a5f9>
 - <https://www.javascripttutorial.net/javascript-queue/>
+- <https://www.codingninjas.com/blog/2021/06/07/data-structures-for-interviews-stack-and-queue/>

@@ -35,3 +35,4 @@ for (let i = 0; i < 7; i++) {
 }
 console.log(line.peek());
 console.log(line.length());
+console.log(line);
