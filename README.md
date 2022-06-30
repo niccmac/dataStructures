@@ -57,21 +57,20 @@
 
 ## Binary Tree
 
-![Binary Tree eg.](https://raw.githubusercontent.com/niccmac/dataStructures/main/public/img/st73hnavf3vbeitow7ln.webp)
+![Binary Tree eg.](https://raw.githubusercontent.com/niccmac/dataStructures/main/public/img/binarytree.webp)
 
-- is an elementary linear data structure.
-- last item in is the first item out, or first in last out.
-- data is stored in a particular index.
-- used for
+- is a tree data structure in which each node has at most two children.
+- each node is referred to as the left or right child.
+- is has a non-linear, but a hierarchical structure.
 
 ### Disadvantages...
 
-- no random access of elements.
-- not easily searchable.
+- can be difficult to implement/complex.
+- removing nodes can be complex.
 
 ### Advantages...
 
-- easy to learn.
+-
 - optimises queues.
 - flexible, can handle many data types.
 - controls how memory is allocated.
@@ -93,3 +92,4 @@ Source
 - <https://medium.com/@_jmoller/javascript-data-structures-stacks-and-queues-ea877d72a5f9>
 - <https://www.javascripttutorial.net/javascript-queue/>
 - <https://www.codingninjas.com/blog/2021/06/07/data-structures-for-interviews-stack-and-queue/>
+- <https://www.geeksforgeeks.org/binary-tree-set-1-introduction/>
